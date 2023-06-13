@@ -1,0 +1,13 @@
+{
+  "name": "eduwork-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nayla",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
