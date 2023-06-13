@@ -6,4 +6,3 @@ describe("Payment", () => {
     cy.paybill("2000", "2023-06-05", "learn");
   });
 });
-
