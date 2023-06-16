@@ -6,4 +6,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    userEmail: "admin",
+    userPassword: "admin",
+    apiUrl: "https://the-internet.herokuapp.com",
+  },
 });
