@@ -35,7 +35,7 @@ describe("Validate Header", () => {
     cy.get("@bulbasaur").its("body").should("include", { name: "bulbasaur" });
   });
 
-  it.only("succsessfully validate contentc", () => {
+  it.only("succsessfully validate content persian", () => {
     cy.request("https://pokeapi.co/api/v2/pokemon/persian").as("persian");
     cy.get("@persian")
       .its("body")
