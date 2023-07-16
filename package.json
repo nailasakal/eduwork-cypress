@@ -8,6 +8,7 @@
     "cy:open": "cypress open"
   },
   "devDependencies": {
-    "cypress": "^12.13.0"
+    "cypress": "^12.13.0",
+    "cypress-iframe": "^1.0.1"
   }
 }
